@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Homework_2</title>
-</head>
-<body>
-    <script src="main.js"></script>
-</body>
+  </head>
+  <body>
+    <button class="btn btn-color" id="btn-black">Dark Theme</button>
+    <button class="btn btn-color" id="btn-white">Light Theme</button>
+      <div id="user-wrapper"></div>
+      <form action="" id="new-user" class="form">
+        <h3>Add New User</h3>
+        <label for="user-id">
+          ID
+          <input type="number" placeholder="Enter id" required id="user-id">
+        </label>
+        <label for="user-email">
+          Email
+          <input type="email" placeholder="Enter email" required id="user-email">
+        </label>
+        <label for="user-name">
+          Name
+          <input type="text" placeholder="Enter name" required id="user-name">
+        </label>
+        <label for="user-surname">
+          Surname
+          <input type="text" placeholder="Enter surname" required id="user-surname">
+        </label>
+        <label for="user-pic">
+          Photo
+          <input type="file" placeholder="Add a photo" required id="user-pic">
+        </label>
+        <button type="submit" class="btn" id="newUserBtn">Add New User</button>
+        <div id="user-count"></div>
+      </form>
+    <script src="main.js" type="module"></script>
+  </body>
 </html>

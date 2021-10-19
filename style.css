@@ -1,0 +1,54 @@
+.user {
+  background-color: aliceblue;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  width: 260px;
+  flex-direction: column;
+}
+
+.user div {
+  margin-bottom: 5px;
+}
+
+#user-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 30px;
+}
+
+img {
+  width: 128px;
+  margin-bottom: 15px;
+}
+
+.delete-btn,
+.btn {
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #000;
+  margin-bottom: 5px;
+}
+
+.btn-color {
+  background: aliceblue;
+}
+
+input {
+  padding: 10px;
+  height: 15px;
+  border: 1px solid rgb(90, 90, 90);
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.form {
+  background-color: aliceblue;
+  margin-top: 100px;
+  padding: 50px;
+  width: 250px;
+}
